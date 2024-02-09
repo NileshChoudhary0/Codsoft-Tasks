@@ -30,7 +30,7 @@ public class Quiz1 {
             }
 
             TimerTask task = new TimerTask() {
-                @Override
+            
                 public void run() {
                     System.out.println("\nTime's up!");
                     System.out.println("Before moving to next question just try to guess the answer");
